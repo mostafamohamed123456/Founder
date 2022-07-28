@@ -287,7 +287,7 @@ nav .navBar-list li:hover::after{
     text-transform:uppercase;
     padding:5px;
     position: relative;
-    width: 400px;;
+    width: 100%;
     margin: 0px auto 15px auto;
 }
 
@@ -514,10 +514,16 @@ nav .navBar-list li:hover::after{
         display: inline-block;
     }
     .contact-section .sign-in-form{
-        width:355px;
+        width:88%;
     }
     .contact-section .sign-in-form input:not(input[type="radio"]){
-        width:90%;
+        width:77%;
+    }
+    .contact-section .sign-up-form{
+        width:88%;
+    }
+    .contact-section .sign-up-form input:not(input[type="radio"]){
+        width:77%;
     }
     input[type="search"]{
         width:100%;
