@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    box-sizing:border-box;;
+}
+.navigator-bar{
+    display: flex;
+    width:100%;
+    justify-content:space-around;
+    position: relative;
+    z-index: 3;
+    background-color:rgb(10, 161, 226)
+}
+.navigator-bar.scrolling-active{
+    position: fixed;
+}
+.navigator-bar .logo{
+    display: inline-block;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Arial;
+    color:#FFF;
+}
+.navigator-bar .logo::first-letter{
+    font-family: cursive;
+    font-size: 45px;
+}
+.navigator-bar .navigationBarItems{
+    list-style-type:none;
+    padding-top: 20px;
+}
+.navigator-bar .navigationBarItems li{
+    display:inline-block;
+    padding:5px;
+    margin-right:4px;
+    font-size:17px;
+    text-transform:uppercase;
+    color:#FFF;
+    cursor:pointer;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+.navigator-bar .navigationBarItems li a{
+    color:#FFF;
+    font-size:24px;
+    text-transform:uppercase;
+}
+.navigator-bar .navBar-search-userIcon i{
+    color: #FFF;
+    padding-top: 29px;
+    font-size: 24px;
+    margin-right: 25px;
+    cursor:pointer;
+}
+.left-navBar{
+    background: #EEE;
+    position: fixed;
+    width: 268px;
+    height: 100%;
+    padding: 10px;
+    top: 57px;
+    box-shadow: 4px 4px 5px #AAA;
+    text-align:center;
+    overflow-y: scroll;
+}
