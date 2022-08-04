@@ -331,7 +331,7 @@ let childOneListItems = childOne.children[1].children;
 for(let i = 0; i < childOneListItems.length; i++){
     childOneListItems[i].addEventListener("click",()=>{
         let childOneCourses = childOneListItems[i].textContent;
-        localStorage.setItem("childOneCourses",childOneCourses);
+        localStorage.setItem("courseName",childOneCourses);
         window.open("courses.html","_self");
     })
 }
