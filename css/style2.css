@@ -60,6 +60,9 @@ body{
     margin-right: 25px;
     cursor:pointer;
 }
+.courses-parent{
+    display: flex;
+}
 .left-navBar{
     background: #253938;
     position: fixed;
@@ -71,7 +74,11 @@ body{
     text-align:center;
     overflow-y: scroll;
 }
-
+.shar7ElTags{
+    left: 17%;
+    position: relative;
+    margin: 7px 57px;
+}
 .htmlTags{
     margin-top:10px;
     padding:5px;
